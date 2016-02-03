@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.administrator.scaletypetest">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+        tools:overrideLibrary="com.vdolrm.lrmlibrary">
+        <activity
+            android:name="com.example.administrator.scaletypetest.GuiceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.administrator.scaletypetest.WelcomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.WelcomeActivity2" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.SecondActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.Changfangxing1Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.Changfangxing2Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.Changfangxing3Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.WrapContentFangActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.WrapContentChangActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.AllNoRuleViewLongActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.AllNoRuleViewMiddle1Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.AllNoRuleViewMiddle2Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.AllNoRuleViewShortActivity" android:screenOrientation="portrait"/>
+
+        <activity android:name="com.example.administrator.scaletypetest.PropertyCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyCenterCropActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyCenterInsideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyFitCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyFitStartActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyFitEndActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyFitXyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.PropertyMatrixActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.administrator.scaletypetest.DemoActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
