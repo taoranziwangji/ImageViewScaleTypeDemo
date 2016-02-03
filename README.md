@@ -1,0 +1,2 @@
+# ImageViewScaleTypeDemo
+史上最详细的介绍scaleType属性的demo
